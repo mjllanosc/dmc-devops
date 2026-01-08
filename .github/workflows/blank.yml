@@ -34,3 +34,15 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+  markdownlint:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout del código
+          uses: actions/checkout@v4
+  
+        - name: Ejecutar Markdownlint
+          uses: davidanson/markdownlint-cli2-action@v16
+          with:
+            globs: |
+              **/*.md
+              !node_modules/
