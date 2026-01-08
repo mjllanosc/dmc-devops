@@ -53,3 +53,5 @@ Para cerrar el ciclo de feedback, implementamos:
 
 ## 🚀 Instalación Rápida
 Consulta nuestra [Documentación de Setup](./docs/setup.md) para configurar tu entorno local en menos de 5 minutos.
+
+## TODO
