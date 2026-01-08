@@ -24,9 +24,9 @@ Cada *Pull Request* activa un pipeline automático que ejecuta:
 
 * **Linting & Estilo:** Verificación de estándares de código (ESLint/Pylint).
 * **Security Scanning:** Análisis de vulnerabilidades en dependencias
- (Snyk/Trivy) y secretos (GitLeaks).
+  (Snyk/Trivy) y secretos (GitLeaks).
 * **Unit Testing:** Ejecución de pruebas con un umbral mínimo de
- cobertura del 80%.
+  cobertura del 80%.
 * **Build de Artefactos:** Creación de imágenes Docker multi-etapa.
 
 ### 2. Entrega Continua (CD)
@@ -75,4 +75,4 @@ Para cerrar el ciclo de feedback, implementamos:
 ## 🚀 Instalación Rápida
 
 Consulta nuestra [Documentación de Setup](./docs/setup.md) para configurar
- tu entorno local en menos de 5 minutos.
+tu entorno local en menos de 5 minutos.
