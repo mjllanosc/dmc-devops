@@ -37,7 +37,7 @@ Utilizamos una estrategia de despliegue progresivo:
   para validación QA.
 * **Ambiente de Producción:** Activado mediante *Tags* de versión
   o aprobación manual (Manual Gate).
-* **Estrategia:** Despliegue **Blue-Green** para asegurar cero 
+* **Estrategia:** Despliegue **Blue-Green** para asegurar cero
   tiempo de inactividad.
 
 ### 3. Infraestructura como Código (IaC)
@@ -56,7 +56,7 @@ Para cerrar el ciclo de feedback, implementamos:
 
 * **Métricas:** Prometheus & Grafana para el estado del cluster.
 * **Logs:** Stack ELK (Elasticsearch, Logstash, Kibana).
-* **Tracing:** Jaeger para el seguimiento de transacciones 
+* **Tracing:** Jaeger para el seguimiento de transacciones
   entre microservicios.
 
 ---
