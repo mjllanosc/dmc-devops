@@ -38,7 +38,7 @@ Utilizamos una estrategia de despliegue progresivo:
 * **Ambiente de Producción:** Activado mediante *Tags* de versión
   o aprobación manual (Manual Gate).
 * **Estrategia:** Despliegue **Blue-Green** para asegurar cero 
- tiempo de inactividad.
+  tiempo de inactividad.
 
 ### 3. Infraestructura como Código (IaC)
 
@@ -46,7 +46,7 @@ Toda nuestra infraestructura está versionada y gestionada mediante:
 
 * **Terraform:** Aprovisionamiento de recursos en la nube.
 * **Kubernetes (Helm):** Orquestación de contenedores y gestión
- de configuraciones.
+  de configuraciones.
 
 ---
 
@@ -57,7 +57,7 @@ Para cerrar el ciclo de feedback, implementamos:
 * **Métricas:** Prometheus & Grafana para el estado del cluster.
 * **Logs:** Stack ELK (Elasticsearch, Logstash, Kibana).
 * **Tracing:** Jaeger para el seguimiento de transacciones 
-entre microservicios.
+  entre microservicios.
 
 ---
 
